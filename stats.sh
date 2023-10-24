@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+!!/usr/bin/env bash
 
 benchFuncs="${1}"
 if [[ "${benchFuncs}0" == "0" ]] ;then {
-    benchFuncs=".*"
+    benchFuncs=". "
 }
 fi
 
@@ -60,3 +60,4 @@ END {
         print arry[keys[i]]
     }
 }'
+ 
