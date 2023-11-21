@@ -8,3 +8,4 @@ type MUSA struct {
 	Spouse   bool
 	Money    float64
 }
+ 
